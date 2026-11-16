@@ -16,12 +16,12 @@ jobs:
 
       - name: Connect, Check Python and Deploy to VPS
         run: |
-          export SSHPASS='Tur57RMSFg3s'
+          export SSHPASS='ekEJ3eBQHViB'
 
           sshpass -e ssh \
             -o StrictHostKeyChecking=accept-new \
             -p 22 \
-            root@153.75.82.12 \
+            root@172.86.74.10 \
             "
               echo 'Connected to VPS!' && \
               echo 'Checking Python...' && \
